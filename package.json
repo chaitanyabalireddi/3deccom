@@ -1,9 +1,12 @@
 {
+  "homepage": "https://chaitanyabalireddi/github.io/3deccom",
   "name": "three-js-eccom",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -13,6 +16,7 @@
     "@react-three/drei": "^9.120.4",
     "@react-three/fiber": "^8.17.10",
     "framer-motion": "^11.15.0",
+    "gh-pages": "^6.2.0",
     "maath": "^0.10.8",
     "react": "^18.3.1",
     "react-color": "^2.19.3",
